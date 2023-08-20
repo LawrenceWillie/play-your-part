@@ -48,9 +48,9 @@
 
                         <div class="call-us">
                           <a class="call" href="tel:078 352 1065"><p><i id="phone" class="fas fa-phone"></i> </p></a>
-                          <a class="whatsapp" href="https://call.whatsapp.com/voice/lKjkCJokuOwJ1VkfAs1d20"><p><i id="whatsapp" class="fa-brands fa-whatsapp"></i> </p></a>
-                          <a class="facebook" href="" style="text-decoration: none;"><p><i id="facebook" class="fa-brands fa-facebook"></i> </p></a>
-                          <a class="twitter" href="" style="text-decoration: none;"><p><i id="facebook" class="fa-brands fa-twitter"></i> </p></a>
+                          <a class="whatsapp" onclick="social_media()" href="https://call.whatsapp.com/voice/lKjkCJokuOwJ1VkfAs1d20"><p><i id="whatsapp" class="fa-brands fa-whatsapp"></i> </p></a>
+                          <a class="facebook" onclick="social_media()" href="" style="text-decoration: none;"><p><i id="facebook" class="fa-brands fa-facebook"></i> </p></a>
+                          <a class="twitter" onclick="social_media()" href="" style="text-decoration: none;"><p><i id="facebook" class="fa-brands fa-twitter"></i> </p></a>
                         </div>
                     </div>
                 </div>        
@@ -106,22 +106,22 @@
               </div>
 
                 <div class="input-cnt">
-                  <i id="email" class="fas fa-envelope"></i>
-                  <input type="email" placeholder="0783365852" name="email">
+                  <i id="name" class="fas fa-envelope"></i>
+                  <input type="text" placeholder="0783365852" name="email">
                   </div>
 
                   <div class="input-cnt">
-                  <i id="email" class="fas fa-phone"></i>
-                  <input type="tel" placeholder="www.law@gmail.com"  name="cellphone">
+                  <i id="name" class="fas fa-phone"></i>
+                  <input type="text" placeholder="www.law@gmail.com"  name="cellphone">
                   </div>
 
       
               <div class="input-cnt">
-                <i id="message" class="fas fa-message"></i>
+                <i id="name" class="fas fa-message"></i>
                 <textarea placeholder="Describe your business" type="text" name="message" ></textarea>
                 </div>
               <div class="input-cnt">
-                <input type="submit" />
+                <input id="updates" onclick="update()" type="submit" />
               </div>
               
               </form>
@@ -190,16 +190,16 @@
 
 
 					<div class="input-cnt">
-						<i id="email" class="fas fa-envelope"></i>
+						<i id="name" class="fas fa-envelope"></i>
 						<input type="text" placeholder="email" name="email" >
 						</div>
 
 				<div class="input-cnt">
-					<i id="message" class="fas fa-message"></i>
+					<i id="name" class="fas fa-message"></i>
 					<textarea placeholder="your message here..." name="message"></textarea>
 					</div>
 				<div class="input-cnt">
-					<input type="submit" />
+					<input id="updates" onclick="update()" type="submit" />
 				</div>
 				
 				</form>

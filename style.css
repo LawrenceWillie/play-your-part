@@ -61,6 +61,8 @@ body {
         font-weight: 800;
       }
 
+      /****************************************Lets talk******************************************************/
+
       body .lets-talk {
         position: fixed;
         right: 2%;
@@ -77,14 +79,14 @@ body {
         position: relative;
         display: flex;
         justify-content: center;  
-        color: rgb(0, 0, 0);
+        color: rgb(31, 32, 30);
         font-size: x-large;
         padding-top: 13px;
         
       }
 
       body .send-message:hover{
-        color: rgb(31, 32, 30);
+        color: rgb(0, 0, 0);
         transition: .9s;
       }
 
@@ -427,7 +429,7 @@ section #textBox .text-container .call-us {
 }
 /* END FOOTER */
 
-/************************ CONTACT US  *************************/
+/************************************************************* CONTACT US  ****************************************************************/
 .row .form-container {
   position: relative;
   margin: 20px;
@@ -442,6 +444,7 @@ section #textBox .text-container .call-us {
   position: relative;
   display: flex;
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .row .form-container .input-cnt:last-child {
@@ -468,25 +471,15 @@ section #textBox .text-container .call-us {
   justify-content: center;
   background: #2e3135;
   color: white;
-  padding-top: 15%;
+ 
 }
 
-.row .form-container .input-cnt:hover  i #email{
-  
+/* *************************************Contact us ************************************************************* */
+.layer3 .form-container form .input-cnt #name {
+  position: relative;
   display: flex;
+  align-items: center;
   justify-content: center;
-  
-
-}
-
-.row .form-container .input-cnt #name{
-  padding-top: 4%;
-}
-.row .form-container .input-cnt #email{
-  padding-top: 4%;
-}
-.row .form-container .input-cnt #message{
-  padding-top: 15%;
 }
 
 .row .form-container .input-cnt > input[type="text"], .input-cnt > textarea {
@@ -497,6 +490,13 @@ section #textBox .text-container .call-us {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   width: 100%;
+}
+
+.row .form-container .input-cnt #name {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row .form-container textarea {

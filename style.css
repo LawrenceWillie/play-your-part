@@ -99,8 +99,9 @@ body {
 
 section #header-text {
   position: relative;
-  padding: 20px;
-  background-image:  radial-gradient(rgb(0, 0, 0), rgb(3, 21, 53)); 
+  padding: 0;
+  background-image:  radial-gradient(rgb(0, 0, 0), rgb(37, 33, 33)); 
+  overflow: hidden;
 }
 
 section #textBox .text-container{
@@ -185,6 +186,22 @@ section #textBox .text-container .call-us {
     clip-path: circle(600px at right 800px);
     opacity: 65%;
 }
+
+section #header-text .numbertext{ 
+  position: absolute;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5eded;
+  height: auto; 
+  opacity: 50%;
+}
+
+section #header-text .numbertext img { 
+  height: auto;
+  width: 100%;
+}
+
 
 
 /************************************ SLIDE-SHOW CONTAINER *****************************************/
@@ -395,6 +412,270 @@ section #textBox .text-container .call-us {
   padding: 0 15px 15px 15px;
   background-color: #cfd1e2;
 }
+/*000000000000000000000000000000000000pricing000000000000000000000*/
+.add {
+  position: relative;
+  overflow: hidden;
+}
+.slider-container-pricing{
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  overflow-x:unset;
+  position: relative;
+  padding: 20px;
+  background-color: #ebf8f8;
+   
+ }
+
+
+ .slider-container-pricing h2{
+  color: rgb(241, 241, 241);
+  font-weight: 900;
+  text-align: center;
+ }
+
+ .slider-container-pricing h5{
+  color: rgb(241, 241, 241);
+  font-size: 15px;
+  text-align: center;
+ }
+
+
+ .slider-container-pricing .slider-pricing {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f2fafa;
+  overflow-x: unset;
+
+  
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing {
+  flex: 0 0 300px;
+  margin: 0 10px;
+  background-color: rgb(231, 228, 30);
+  border-radius: 20px;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  color: #333;
+  opacity: 95%;
+  height: auto;
+  
+  /* border-right: 3px solid #32595a; */
+
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .header{
+  position: relative;
+  display: flex;
+  align-items: center;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .header .icon{
+  border: 1px solid #30db8b;
+  height: 47px;
+  width: 47px;
+  border-radius: 20%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #30db8b;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .header .icon i{
+  position: relative;
+  font-size: 25px;
+  color: #fffefe;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .header span{
+  line-height: 1;
+  padding: 12px;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .header p{
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  font-weight: 800;
+  color: #152222;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .prices{
+  padding: 10px;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-1{
+  position: relative;
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 20px;
+  width: 360px;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-1 .left-p{
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  padding: 0;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4d5966;
+  
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-1 .left-p .text{
+  color: #4d5966;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  padding-bottom: 0;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-1 .left-p .b1-price{
+  font-weight: 800;
+  padding-top: 0;
+  color: #4d5966;
+  font-size: 30px;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-1 .right-p span{
+  font-weight: 800;
+  font-size: 17px;
+  padding: 10px;
+  
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-1 .right-p {
+  padding: 0;
+  width: 150px;
+  font-weight: 800;
+  font-size: 16px;
+  
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-1 .right-p .s-price{
+  border-radius: 10px;
+  padding: 0;
+  width: 150px;
+  font-weight: 800;
+  font-size: 17px;
+  color: #30db8b;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-1 .right-p .text{
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  padding-bottom: 0;
+  color: gray;
+ }
+
+ /******PRICING 2*********************/
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-2{
+  position: relative;
+  display: block;
+  background-color: rgba(137, 121, 163, 0.562);
+  border-radius: 20px;
+  padding: 20px;
+  width: 360px;
+  color: #f5eded;
+  font-size: 12px;
+  margin-top: 25px;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-2 .text{
+  font-size: 11px;
+  font-weight: 600;
+  color: #f5eded;
+ }
+
+ .slider-container-pricing .slider-pricing .card-pricing .price-2 .b2-price{
+  font-weight: 800;
+  padding-top: 0;
+  color: #152230;
+  font-size: 30px;
+ }
+
+ /******************************Bottom text*******************/
+ .slider-container-pricing .slider-pricing .bottom-txt {
+  position: relative;
+  display: flex;
+  padding-top: 20px;
+ }
+
+ .slider-container-pricing .slider-pricing .bottom-txt .icon {
+  height: 20px;
+  position: relative;
+  display: flex;
+  width: 20px;
+  border: 1px solid ;
+  border-radius: 50%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+ }
+ .slider-container-pricing .slider-pricing .bottom-txt .icon i{
+  font-size: 10px;
+  position: absolute;
+  font-weight: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+ }
+ .slider-container-pricing .slider-pricing .bottom-txt .ful-desc{
+  font-size: 14px;
+  margin-left: 10px;
+ } 
+
+ /* BUTTON */
+
+ 
+
+ .slider-container-pricing .slider-pricing .call-btn {
+  position:relative;
+  text-align: center;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .slider-container-pricing .slider-pricing .call-btn button{
+  padding: 8px;
+  width: 40%;
+  border-radius: 20px;
+  color: snow;
+  background-color: #1c5d5f;
+  border: none;
+  position: absolute;
+ 
+ }
+
+ .slider-container-pricing .slider-pricing .call-btn button:hover{
+  background-color: #29868a;
+  padding: 9px;
+ }
+
+
+
+
+  /* ****************************END OF PRICing**************************************************/
+
+
 /* END HOME PAGE */
 
 
@@ -417,9 +698,10 @@ section #textBox .text-container .call-us {
 }
 #hours > span, #address > span {
   font-size: 1.3em;
+  color: #effae9;
 }
 #address p {
-  color: #557c3e;
+  color: #effae9;
   font-size: .8em;
   line-height: 1.8;
 }

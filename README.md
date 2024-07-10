@@ -12,3 +12,20 @@ Features
     Profile Management: Both providers and users can manage their profiles, update information, and track their activities.
     Secure Payment Gateway: Secure and easy payment options for service bookings.
 
+    Usage
+
+    For Service Providers:
+        Sign up and create a profile.
+        List your services with detailed information.
+        Manage your service listings and bookings from your dashboard.
+
+    For Service Seekers:
+        Sign up and create a profile.
+        Search for services based on your needs.
+        Book services and leave reviews after completion.
+License
+
+GreenTech is licensed under the GreenTech License
+
+        
+

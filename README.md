@@ -7,6 +7,8 @@ range of services
 GreenTech Project README
 GreenTech
 
+time spend to build the project: one week
+
 Welcome to GreenTech, a platform designed to help people order and provide eco-friendly services. Whether you're looking to offer your green services or find sustainable solutions, GreenTech connects providers and seekers in one convenient place.
 Features
 
